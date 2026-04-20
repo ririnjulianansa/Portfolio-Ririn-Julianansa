@@ -767,17 +767,86 @@ span {
         padding: 10rem 4% 5rem 5%;
     }
 
+    .experience h2,
+    .experience h3 {
+        margin: 0;
+    }
+
     .sertif form .input-box .input-field {
         width: 100%;
     }
 
-    .footer {
-        flex-direction: column-reverse;
+    .footer-sci {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 8px;
     }
 
-    .footer p {
-        margin-top: 2rem;
+    .footer-sci a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #0a2239;
+        border-radius: 50%;
+        color: #0a2239;
+        font-size: 2rem;
+        transition: 0.3s ease;
+    }
+
+    .footer-sci a:hover {
+        background: whitesmoke;
+        color: #0a2239;
+        transform: scale(1.1);
+    }
+
+    .footer-text p {
+        font-size: 1.3rem;
+        color: #0a2239;
         text-align: center;
+        margin: 0;
+    }
+
+    .footer-iconTop {
+        display: flex;
+        justify-content: center; 
+        margin-top: 2rem;
+    }
+
+    .footer-iconTop a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border-radius: 0.4rem;
+        color: #0a2239;
+        font-size: 1.2rem;
+        transition: 0.3s ease;
+    }
+
+    .footer-iconTop a:hover {
+        transform: translateY(-3px);
+    }
+
+    .projects {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .sertif {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    
+    .projects-row .projects-column .content img {
+        width: 85px;
+    }
+
+    .content-sertif img {
+        width: 85px;
     }
 }
 
