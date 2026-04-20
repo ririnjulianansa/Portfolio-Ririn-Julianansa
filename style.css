@@ -365,6 +365,11 @@ span {
     justify-content: space-between;
 }
 
+.experience h2,
+.experience h3 {
+    margin: 0;
+}
+
 .experience-content .progress h4 {
     font-size: 14px;
 }
